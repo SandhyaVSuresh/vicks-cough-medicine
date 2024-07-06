@@ -1098,9 +1098,14 @@ body {
   }
 
   .footer-bottom {
-    margin: 10px 2px;
+    margin: 10px 0px;
   }
-
+  .notice p,
+  .notice .your,
+  .notice .certifications{
+    margin: 10px;
+    padding: 0;
+  }
   .country-privacy .country .aro {
     display: none;
   }
