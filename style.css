@@ -31,7 +31,7 @@ body {
   display: none;
 }
 
-#spotlight .spot .nave a img {
+#spotlight .spot .nave .logo .vickslogo {
   width: 3rem;
   height: 3rem;
 }
@@ -169,69 +169,66 @@ body {
     order: 2;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1440px) {
-  #spotlight {
-    height: 130vh;
-    background-size: cover;
-  }
-
-  #spotlight .spot .light .learnmore {
-    width: 200px;
-  }
-}
-@media (min-width: 979px) and (max-width: 1280px) {
-  #spotlight {
-    height: 100vh;
-    background-size: cover;
-  }
-
-  #spotlight .spot .light .learnmore {
-    bottom: 10%; 
-    left: 50%;
-    width: 180px;
-  }
-}
-
-@media (min-width: 980px) and (max-width: 1080px) {
   #spotlight {
     max-height: 90vh;
     background-size: cover;
   }
 
-  #spotlight .spot {
-    max-width: 1080px;
-  }
-
-  #spotlight .spot .nave {
-    max-width: 1080px;
-  }
-
   #spotlight .spot .light .learnmore {
-    width: 180px;
+    padding: 15px;
+    width: 200px;
     bottom: 15%; 
     left: 40%;
   }
 }
 
-@media (min-width: 750px) and (max-width: 980px) {
+@media (min-width: 980px) and (max-width: 1279px) {
+  #spotlight {
+    max-height: 50vh;
+    background-size: cover;
+  }
+
+  #spotlight .spot .light .learnmore {
+    bottom: 55%;
+    left: 40%;
+    width: 180px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 979px) {
+  #spotlight {
+    max-height: 40vh;
+    background-size: cover;
+  }
   #spotlight .spot .nave {
     max-width: 100vw;
   }
+
   #spotlight .spot .light .learnmore {
-    bottom: 0%; 
+    bottom: 65%;
     left: 35%;
     width: 160px;
   }
 }
-@media (max-width: 751px) {
+
+@media (max-width: 749px) {
   #spotlight {
     background-image: url('images/Mobile_Homepage_banner.jpg');
-    height: 250vh;
+    max-height: 150vh;
+    max-width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
-@media(min-width:690px) and (max-width: 750px) {
+
+@media (min-width: 690px) and (max-width: 749px) {
+  #spotlight {
+    max-height: 150vh;
+    max-width: 100%;
+    background-position: center;
+  }
 
   #spotlight .spot .light .learnmore {
     display: none;
@@ -248,46 +245,25 @@ body {
   }
 }
 
-@media (min-width: 539px) and (max-width: 640px) {
-
-  #spotlight .spot .light .learnmore {
-    position: absolute;
-    top: calc(170vh + 1px);
-    padding: auto;
-    height: 25px;
-    right: 250px;
-    width: 160px;
-  }
-
-  #spotlight .spot .light i {
-    display: none;
+@media (min-width: 539px) and (max-width: 639px) {
+  #spotlight {
+    max-height: 100vh;
+    max-width: 100%;
+    background-position: center;
   }
 }
 
-@media (min-width: 479px) and (max-width: 540px) {
+@media (min-width: 479px) and (max-width: 538px) {
   #spotlight {
-    height: 150vh;
-    background-size: cover;
-  }
-
-  #spotlight .spot .light .learnmore {
-    position: absolute;
-    top: calc(170vh + 1px);
-    padding: auto;
-    height: 25px;
-    right: 180px;
-    width: 160px;
-  }
-
-  #spotlight .spot .light i {
-    display: none;
+    max-height: 90vh;
+    max-width: 100%;
+    background-position: center;
   }
 }
 
-@media (min-width: 361px) and (max-width: 480px) {
+@media (min-width: 361px) and (max-width: 478px) {
   #spotlight {
-    height: 150vh;
-    background-size: cover;
+    max-height: 70vh;
   }
 
   #spotlight .spot .nave {
@@ -296,39 +272,12 @@ body {
     justify-content: space-around;
     max-width: 100vw;
   }
-
-  #spotlight .spot .light .learnmore {
-    position: absolute;
-    top: calc(170vh + 1px);
-    padding: auto;
-    height: 25px;
-    right: 135px;
-    width: 160px;
-  }
-
-  #spotlight .spot .light i {
-    display: none;
-  }
 }
 
-@media (min-width: 300px) and (max-width: 360px) {
+@media screen and (max-width: 360px) {
   #spotlight {
-    height: 120vh;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
+    max-height: 70vh;
   }
-
-  #spotlight .spot .light .learnmore {
-    position: absolute;
-    top: 100vh;
-    padding: 10px;
-    height: 4vh;
-    right: 95px;
-    width: 140px;
-    font-size: 0.8rem;
-  }
-
   #spotlight .spot {
     width: 340px;
   }
@@ -341,7 +290,7 @@ body {
     max-width: 100%;
   }
 
-  #spotlight .spot .nave a img {
+  #spotlight .spot .nave .logo .vickslogo {
     width: 2rem;
     height: 2rem;
   }
@@ -391,7 +340,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 10px 90px;
+  margin: 0px 90px;
 }
 
 #alltimefavorites .favorbottom .favor {
@@ -403,7 +352,7 @@ body {
   border-radius: 10px;
   max-width: 320px;
   height: 450px;
-  padding: 30px;
+  padding: 30px 0px;
   justify-content: center;
   align-items: center;
 }
@@ -458,7 +407,7 @@ body {
   color: #0065b9;
 }
 
-#alltimefavorites .favorbottom .favor .favorimg img {
+#alltimefavorites .favorbottom .favor .favorimg .fimg {
   margin-bottom: 30px;
   max-width: 280px;
   height: 330px;
@@ -483,18 +432,19 @@ body {
   }
 
   #alltimefavorites .favorbottom {
-    margin: 10px 70px;
+    margin: 0px 70px;
   }
 
   #alltimefavorites .favorbottom .favor {
     max-width: 300px;
     height: 430px;
-    padding: 25px;
+    padding: 25px 25px 0px  25px;
   }
 
-  #alltimefavorites .favorbottom .favor .favorimg img {
-    max-width: 260px;
-    height: 310px;
+  #alltimefavorites .favorbottom .favor .favorimg fimg {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -510,12 +460,7 @@ body {
   #alltimefavorites .favorbottom .favor {
     max-width: 260px;
     height: 410px;
-    padding: 20px;
-  }
-
-  #alltimefavorites .favorbottom .favor .favorimg img {
-    max-width: 240px;
-    height: 290px;
+    padding: 20px 20px 0px 20px;
   }
 }
 @media screen and (max-width: 998px) {
@@ -530,7 +475,7 @@ body {
   #alltimefavorites .favorbottom .favor {
     max-width: 260px;
     height: 470px;
-    padding: 15px 0;
+    padding: 15px 15px 0px 15px;
     align-items: center;
   }
 }
@@ -591,7 +536,6 @@ body {
 
 /* --------------------------Vicks legacy----------------------------- */
 #vickslegacy {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -608,13 +552,12 @@ body {
 
 #vickslegacy .legacy .left {
   flex: 1;
-  padding-top: 100px;
   width: 430px;
   height: 430px;
 }
 
 #vickslegacy .legacy .right {
-  padding: 10px;
+  padding:0px 10px;
   align-items: center;
   flex: 2;
 }
@@ -625,9 +568,6 @@ body {
   padding-bottom: 7px;
   font-size: 1.5rem;
   color: #09357a;
-}
-
-#vickslegacy .legacy .right h4 .lap {
 }
 
 #vickslegacy .legacy .right .legacytext {
