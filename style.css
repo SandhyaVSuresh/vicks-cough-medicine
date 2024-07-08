@@ -125,7 +125,7 @@ body {
     top: 55px;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     transition: 0.2s;
     overflow: hidden;
@@ -185,12 +185,12 @@ body {
 
 @media (min-width: 980px) and (max-width: 1279px) {
   #spotlight {
-    max-height: 50vh;
+    max-height: 90vh;
     background-size: cover;
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: 55%;
+    bottom: 20%;
     left: 40%;
     width: 180px;
   }
@@ -199,10 +199,11 @@ body {
 @media (min-width: 750px) and (max-width: 979px) {
   #spotlight {
     max-height: 40vh;
+    width: 100%;
     background-size: cover;
   }
   #spotlight .spot .nave {
-    max-width: 100vw;
+    width: 100%;
   }
 
   #spotlight .spot .light .learnmore {
@@ -216,7 +217,7 @@ body {
   #spotlight {
     background-image: url('images/Mobile_Homepage_banner.jpg');
     max-height: 150vh;
-    max-width: 100%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -226,7 +227,7 @@ body {
 @media (min-width: 690px) and (max-width: 749px) {
   #spotlight {
     max-height: 150vh;
-    max-width: 100%;
+    width: 100%;
     background-position: center;
   }
 
@@ -241,23 +242,47 @@ body {
 
 @media (min-width: 640px) and (max-width: 689px) {
   #spotlight .spot .nave {
-    max-width: 689px;
+    width: 689px;
+  }
+  
+  #spotlight .spot .light .learnmore {
+    display: none;
+  }
+
+  #spotlight .spot .light i {
+    display: none;
   }
 }
 
 @media (min-width: 539px) and (max-width: 639px) {
   #spotlight {
     max-height: 100vh;
-    max-width: 100%;
+    width: 100%;
     background-position: center;
+  }
+  
+  #spotlight .spot .light .learnmore {
+    display: none;
+  }
+
+  #spotlight .spot .light i {
+    display: none;
   }
 }
 
 @media (min-width: 479px) and (max-width: 538px) {
   #spotlight {
     max-height: 90vh;
-    max-width: 100%;
+    width: 100%;
     background-position: center;
+  }
+  
+  #spotlight .spot .light .learnmore {
+    display: none;
+  }
+
+  #spotlight .spot .light i {
+    display: none;
   }
 }
 
@@ -270,7 +295,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 100vw;
+    width: 100%;
+  }
+  
+  #spotlight .spot .light .learnmore {
+    display: none;
+  }
+
+  #spotlight .spot .light i {
+    display: none;
   }
 }
 
@@ -307,11 +340,19 @@ body {
   #spotlight .spot .nave .nav-links li .nlink {
     font-size: 0.8rem;
   }
+  
+  #spotlight .spot .light .learnmore {
+    display: none;
+  }
+
+  #spotlight .spot .light i {
+    display: none;
+  }
 }
 
 /* ------------------------allTimeFavorites------------------------- */
 #alltimefavorites {
-  width: 99vw;
+  width:100%;
 }
 
 #alltimefavorites .favortop {
@@ -441,14 +482,14 @@ body {
     padding: 25px 25px 0px  25px;
   }
 
-  #alltimefavorites .favorbottom .favor .favorimg fimg {
+  #alltimefavorites .favorbottom .favor .favorimg .fimg {
     display: block;
     width: 100%;
     height: 100%;
   }
 }
 
-@media (min-width: 999px) and (max-width: 1098px) {
+@media (min-width: 1000px) and (max-width: 1098px) {
   #alltimefavorites .favortop {
     margin: 10px 15px;
   }
@@ -463,7 +504,7 @@ body {
     padding: 20px 20px 0px 20px;
   }
 }
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 999px) {
   #alltimefavorites .favortop {
     margin: 10px 10px;
   }
@@ -473,16 +514,16 @@ body {
   }
 
   #alltimefavorites .favorbottom .favor {
-    max-width: 260px;
-    height: 470px;
-    padding: 15px 15px 0px 15px;
+    width: 250px;
+    height: 450px;
+    padding: 15px 5px 0px 5px;
     align-items: center;
   }
 }
 @media (max-width: 838px) {
   #alltimefavorites {
     position: relative;
-    height: 120vh;
+    height: 700px;
     overflow: hidden;
     align-items: center;
   }
@@ -494,7 +535,7 @@ body {
   }
 
   .favor {
-    max-width: 100%;
+    width: 270px;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -540,7 +581,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0 90px;
+  width: 100%;
+  
 }
 
 
@@ -548,6 +590,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0 90px;
 }
 
 #vickslegacy .legacy .left {
@@ -593,7 +636,6 @@ body {
 
 @media (min-width: 1081px) and (max-width: 1280px) {
   #vickslegacy {
-    padding: 0 10px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -601,7 +643,6 @@ body {
 
 @media (min-width: 641px) and (max-width: 1080px) {
   #vickslegacy {
-    padding: 0 10px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -609,7 +650,6 @@ body {
 
 @media (min-width: 481px) and (max-width: 640px) {
   #vickslegacy {
-    padding: 0 10px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -643,25 +683,18 @@ body {
 
 @media (min-width: 361px) and (max-width: 480px) {
   #vickslegacy {
-    padding: 0;
-    margin: 0;
     max-width: 480px;
-    padding: 0;
     height: auto;
     margin-bottom: 40px;
   }
 
   .legacy {
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
   }
 
   .left {
-    padding: 0;
-    margin: 0;
     padding-top: 20px;
     width: 320px !important;
     height: 360px;
@@ -689,16 +722,12 @@ body {
 
 @media screen and (max-width: 360px) {
   #vickslegacy {
-    padding: 0;
-    margin: 0;
-    max-width: 100vw;
+    max-width: 100%;
     height: auto;
     margin-bottom: 40px;
   }
 
   .legacy {
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -706,8 +735,6 @@ body {
   }
 
   .left {
-    padding: 0;
-    margin: 0;
     padding-top: 20px;
     max-width: 320px;
     height: 320px;
@@ -734,6 +761,7 @@ body {
   background-color: #002f6c;
   color: #ffffff;
   padding: 50px 0;
+  width: 100%;
 }
 
 .container {
