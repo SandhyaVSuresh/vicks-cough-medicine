@@ -553,7 +553,7 @@ body {
   .carousel-next {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
     background: rgba(250, 249, 249, 0.644);
     font-size: 30px;
