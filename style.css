@@ -89,7 +89,7 @@ body {
   left: 40%;
 }
 
-
+/* adding menu-icon */
 
 @media(max-width:835px) {
   #spotlight .spot .nave.active {
@@ -589,9 +589,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-
 }
-
 
 #vickslegacy .legacy {
   display: flex;
@@ -814,7 +812,7 @@ body {
   margin: 0 10px;
 }
 
-.social-media img {
+.social-media .media {
   width: 24px;
   height: 24px;
 }
@@ -948,7 +946,6 @@ body {
   }
 
   .column h5 {
-    font-family: "Intro W03 Regular";
     font-weight: 400;
   }
 
