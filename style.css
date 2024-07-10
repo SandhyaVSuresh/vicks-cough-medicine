@@ -8,7 +8,7 @@ body {
 
 /*-----------------------------Spotlight--------------------------------- */
 #spotlight {
-  background-image: url("images/vicks-banner.png");
+  background-image: url("../images/vicks-banner.png");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ body {
     order: 2;
   }
 }
-
+/* Responsive */
 @media (min-width: 1280px) and (max-width: 1440px) {
   #spotlight {
     width: 100%;
@@ -847,7 +847,7 @@ body {
   margin-right: 15px;
 }
 
-.notice .certification img {
+.notice .certification .certifi {
   padding-left: 5px;
 }
 
@@ -866,7 +866,7 @@ body {
   align-items: center;
 }
 
-.country-privacy .country img {
+.country-privacy .country .flag {
   width: 24px;
   height: 24px;
   margin-right: 10px;
