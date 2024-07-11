@@ -85,7 +85,7 @@ body {
   padding: 15px;
   position: absolute;
   width: 250px;
-  bottom: 10%;
+  bottom: 20%;
   left: 63%;
   transform: translate(-10%, -30%);
 }
@@ -186,7 +186,7 @@ body {
   #spotlight .spot .light .learnmore {
     padding: 15px;
     width: 200px;
-    bottom: 10%;
+    bottom: 20%;
     left: 63%;
     transform: translate(-10%, -30%);
   }
