@@ -200,7 +200,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: 10%;
+    bottom: 5%;
     left: 63%;
     transform: translate(-10%, -30%);
     width: 180px;
