@@ -245,17 +245,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    color: #000080;
-    font-weight: bolder;
-    text-decoration: none;
-    border: 1px solid #000080;
-    border-radius: 50px;
-    padding: 15px;
-    width: 250px;
-    position: absolute; 
-    bottom: -70px; 
-    left: 35%;
-    text-align: center;
+    display:block;
   }
 
   #spotlight .spot .light i {
@@ -273,10 +263,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: -430px; 
-    left: 35%;
-    color: #000080;
-    border: 1px solid #000080;
+    display:block;
   }
 
   #spotlight .spot .light i {
@@ -290,10 +277,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: -435px; 
-    left: 35%;
-    color: #000080;
-    border: 1px solid #000080;
+    display:block;
   }
 
   #spotlight .spot .light i {
@@ -307,10 +291,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: -240px; 
-    left: 30%;
-    color: #000080;
-    border: 1px solid #000080;
+    display:block;
   }
 
   #spotlight .spot .light i {
@@ -330,10 +311,7 @@ body {
     width: 100%;
   }
   #spotlight .spot .light .learnmore {
-    bottom: -240px; 
-    left: 20%;
-    color: #000080;
-    border: 1px solid #000080;
+    display:block;
   }
 
   #spotlight .spot .light i {
@@ -377,10 +355,7 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-    bottom: -250px; 
-    left: 20%;
-    color: #000080;
-    border: 1px solid #000080;
+    display:block;
   }
 
   #spotlight .spot .light i {
