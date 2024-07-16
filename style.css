@@ -220,7 +220,6 @@ body {
   }
 
   #spotlight .spot .light .learnmore {
-
     width: 160px;
   }
 }
@@ -246,19 +245,9 @@ body {
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore {
-    /* color: #000080;
-    font-weight: bolder;
-    text-decoration: none;
-    border: 1px solid #000080;
-    border-radius: 50px;
-    padding: 15px;
-    width: 250px;
-    text-align: center;
-    right: 0;
-    left: 5px; */
+  #spotlight .spot .light .learnmore{
+    display: none;
   }
-
   #spotlight .spot .light i {
     display: none;
   }
@@ -272,13 +261,12 @@ body {
   #spotlight .spot .nave {
     width: 689px;
   }
-
-  #spotlight .spot .light .learnmore {
-
-    color: #000080;
-    border: 1px solid #000080;
+  #spotlight .spot .light {
+    display: none;
   }
-
+  #spotlight .spot .light .learnmore{
+    display: none;
+  }
   #spotlight .spot .light i {
     display: none;
   }
@@ -288,13 +276,12 @@ body {
   #spotlight {
     max-height: 900px;
   }
-
-  #spotlight .spot .light .learnmore {
-
-    color: #000080;
-    border: 1px solid #000080;
+  #spotlight .spot .light {
+    display: none;
   }
-
+  #spotlight .spot .light .learnmore{
+    display: none;
+  }
   #spotlight .spot .light i {
     display: none;
   }
@@ -304,13 +291,12 @@ body {
   #spotlight {
     max-height: 700px;
   }
-
-  #spotlight .spot .light .learnmore {
-
-    color: #000080;
-    border: 1px solid #000080;
+  #spotlight .spot .light {
+    display: none;
   }
-
+  #spotlight .spot .light .learnmore{
+    display: none;
+  }
   #spotlight .spot .light i {
     display: none;
   }
@@ -320,19 +306,18 @@ body {
   #spotlight {
     max-height: 700px;
   }
-
   #spotlight .spot .nave {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
   }
-  #spotlight .spot .light .learnmore {
-
-    color: #000080;
-    border: 1px solid #000080;
+  #spotlight .spot .light {
+    display: none;
   }
-
+  #spotlight .spot .light .learnmore{
+    display: none;
+  }
   #spotlight .spot .light i {
     display: none;
   }
@@ -372,13 +357,12 @@ body {
   #spotlight .spot .nave .nav-links li .nlink {
     font-size: 0.8rem;
   }
-
-  #spotlight .spot .light .learnmore {
-
-    color: #000080;
-    border: 1px solid #000080;
+  #spotlight .spot .light {
+    display: none;
   }
-
+  #spotlight .spot .light .learnmore{
+    display: none;
+  }
   #spotlight .spot .light i {
     display: none;
   }
