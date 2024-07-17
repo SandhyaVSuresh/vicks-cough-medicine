@@ -187,7 +187,7 @@ body {
   #spotlight .spot .light .learnmore {
     padding: 15px;
     width: 200px;
-    
+
   }
 }
 
@@ -237,12 +237,15 @@ body {
     height: 1200px;
     /* position: relative; */
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -256,12 +259,15 @@ body {
   #spotlight .spot .nave {
     width: 689px;
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -271,12 +277,15 @@ body {
   #spotlight {
     max-height: 900px;
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -286,12 +295,15 @@ body {
   #spotlight {
     max-height: 700px;
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -301,18 +313,22 @@ body {
   #spotlight {
     max-height: 700px;
   }
+
   #spotlight .spot .nave {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -352,12 +368,15 @@ body {
   #spotlight .spot .nave .nav-links li .nlink {
     font-size: 0.8rem;
   }
+
   #spotlight .spot .light {
     display: none;
   }
-  #spotlight .spot .light .learnmore{
+
+  #spotlight .spot .light .learnmore {
     display: none;
   }
+
   #spotlight .spot .light i {
     display: none;
   }
@@ -368,9 +387,11 @@ body {
   /* margin-top: 70px; */
   width: 100%;
 }
-#alltimefavorites .light1{
+
+#alltimefavorites .light1 {
   display: none;
 }
+
 #alltimefavorites .favortop {
   justify-content: space-between;
   display: flex;
@@ -589,13 +610,15 @@ body {
   }
 
 }
-@media screen and (max-width: 749px){
+
+@media screen and (max-width: 749px) {
   #alltimefavorites .light1 {
     display: block;
     margin-top: 20px;
     display: flex;
     justify-content: center;
   }
+
   .learnmore1 {
     color: #000080;
     font-weight: bolder;
@@ -605,7 +628,7 @@ body {
     padding: 15px;
     width: 250px;
     text-align: center;
-    
+
   }
 }
 
@@ -829,6 +852,11 @@ body {
   margin-bottom: 10px;
 }
 
+.column ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .social-media {
   display: flex;
   justify-content: space-between;
@@ -845,6 +873,7 @@ body {
 }
 
 .footer-bottom {
+  font-size: small;
   font-weight: 100;
   margin: 10px 65px;
   padding-top: 20px;
@@ -869,6 +898,11 @@ body {
   align-items: center;
 }
 
+.notice .your p a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .notice .certification {
   display: flex;
   margin-right: 15px;
@@ -891,6 +925,11 @@ body {
 .country-privacy .country {
   display: flex;
   align-items: center;
+  vertical-align: middle;
+}
+.country-privacy .country a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .country-privacy .country .flag {
@@ -900,11 +939,7 @@ body {
 }
 
 .country-privacy .country span {
-  font-weight: bold;
-}
-
-.country-privacy .country .aro {
-  padding-left: 50px;
+  font-weight:200;
 }
 
 .country-privacy ul {
@@ -917,27 +952,27 @@ body {
 .country-privacy ul li {
   margin: 0 10px;
 }
-/* 
-@media (min-width: 981px) and (max-width: 1440px) {
-  .footer-bottom {
-    margin: 10px 50px;
-  }
-} */
+
+.country-privacy ul li a {
+  text-decoration: none;
+  color: #fff;
+}
 
 @media (min-width: 1281px) and (max-width: 1440px) {
   .footer-bottom {
     margin: 10px 40px;
   }
+
   .social-media {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
   }
-  
+
   .social-media a {
     margin: 0 10px;
   }
-  
+
   .social-media .media {
     width: 30px;
     height: 30px;
@@ -948,6 +983,7 @@ body {
   .footer-bottom {
     margin: 10px 30px;
   }
+
   .social-media {
     margin-top: 40px;
     justify-content: space-around;
